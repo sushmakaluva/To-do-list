@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="to_do_list.js"></script>
+    <title>To do List</title>
+
+    <style>
+        .remove{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container bg-info p-5">
+       <h1 class="text-center">To do list</h1> 
+        <form class="add-items" id="form1">
+            <div class="row">
+                <input type="text" id="inputtext" class="form-control col-sm-10 pt-3" placeholder="Enter your data"> 
+                <button  id="addBtn" type="button" class="col-sm-2">Add</button>
+            </div>
+        </form>
+         
+    </div>
+    <div class="container pt-3"> 
+        <h4 class="text-info text-center">Things that I've got to do !!</h4>
+        <ol class="display-10  glyphicon glyphicon-remove">
+        </ol>
+
+    </div>
+   
+</body>
+</html>
